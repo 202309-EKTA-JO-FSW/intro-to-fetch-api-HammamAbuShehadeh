@@ -29,7 +29,7 @@ const fetchUserData = async () => {
     console.log("Sorted User Data:");
     console.log(sortedUsers);
   } catch (err) {
-    console.error("Error:", error.message);
+    console.error("Error:", err.message);
   } finally {
     console.log("the fetch operation is finished");
   }
